@@ -1,0 +1,23 @@
+@keyframes hover {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.animate-hover:hover {
+    animation-name: hover;
+    animation-duration: 0.5s;
+    /* Adjust animation duration as needed */
+}
+
+.blur-style{
+    border-radius: 3px;
+}
