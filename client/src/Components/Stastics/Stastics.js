@@ -38,7 +38,7 @@ const Stastics = () => {
                         backgroundColor: 'black'
                     }}
                     className='w-[50%] h-full pl-2 sm:pl-8 lg:pl-14 xl:pl-28 lg:pt-0 xl:pt-28'>
-                    <div className='text-slate-50 font-bold text-3xl xl:text-4xl   leading-normal  pb-8 w-[98vw] sm:w-[70vw] lg:w-[90%]'>
+                    <div className='text-slate-50 font-bold text-2xl sm:text-3xl xl:text-4xl   leading-normal  pb-8 w-[90vw] sm:w-[70vw] lg:w-[90%]'>
                         Experience the magic of Interiokit. Contact us to discuss your project.
                     </div>
                     <p className='font-semibold text-md text text-gray-500 pb-8 w-[90vw] sm:w-[80vw] lg:w-[90%]'>

@@ -19,7 +19,7 @@ const Stastics = lazy(() => import('../../Components/Stastics/Stastics.js'))
 
 const Main = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black overflow-hidden'>
       <Navbar />
       <Intro />
       <Usecase />
