@@ -37,13 +37,13 @@ const Playcard = () => {
     }
 
 
-    const scale1 = scrollPosition1 > 0.7 && scrollPosition1 < 0.28 ? 1 : calculate(1, 0.7, 0.95, 0.28, scrollPosition1)
+    const scale1 = scrollPosition1 > 0.7 || scrollPosition1 < 0.28 ? 1 : calculate(1, 0.7, 0.95, 0.28, scrollPosition1)
 
-    const scale2 = scrollPosition2 > 0.77 && scrollPosition2 < 0.38 ? 1 : calculate(1, 0.77, 0.97, 0.38, scrollPosition2)
+    const scale2 = scrollPosition2 > 0.77 || scrollPosition2 < 0.38 ? 1 : calculate(1, 0.77, 0.97, 0.38, scrollPosition2)
 
-    const scale3 = scrollPosition3 > 0.88 && scrollPosition3 < 0.48 ? 1 : calculate(1, 0.88, 0.99, 0.48, scrollPosition3)
+    const scale3 = scrollPosition3 > 0.88 || scrollPosition3 < 0.48 ? 1 : calculate(1, 0.88, 0.99, 0.48, scrollPosition3)
 
-    const scale4 = scrollPosition3 > 0.18 && scrollPosition3 < 0 ? 1 : calculate(1, 0.18, 0.95, 0, scrollPosition3)
+    const scale4 = scrollPosition3 > 0.18 || scrollPosition3 < 0 ? 1 : calculate(1, 0.18, 0.95, 0, scrollPosition3)
 
     return (
         <div className=''>
